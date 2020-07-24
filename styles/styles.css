@@ -1,0 +1,183 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #F5F7FA;
+  color: #111111;
+  font-family: 'Inter var', sans-serif;
+  font-size: 14px;
+}
+.container{
+  max-width: 740px;
+  margin: auto;
+  padding: 20px;
+}
+/*-----BODY & CONTAINER---⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆---------DONE*/
+
+
+
+/*-----NAVBAR---⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇---------DONE*/
+header{
+  position: sticky;
+  top: 0;
+  height: 60px;
+  background-color:#F5F7FA ;
+  border-bottom: 1px solid #e2e2e2;
+  box-shadow:
+  0 0.6px 3.8px rgba(106, 127, 161, 0.086);
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.navbar h3{
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  list-style: none;
+  color:#181b20;
+}
+.navbar span{
+  color: dodgerblue;
+}
+.links ul{
+  list-style: none;
+  display: flex;
+}
+.links a{
+  width: 50px;
+  padding: 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #8da0ac;
+  text-decoration: none;
+}
+.links a:hover{
+  color: #111111;
+}
+.links .active a{
+  color: #111111;
+}
+/*---NAVBAR---⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆---NAVBAR------DONE*/
+
+
+
+/*---PROJECTS-⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇-PROJECTS--------DONE*/
+/*---Project-Title--*/
+.projecttitle{
+  margin: 50px 0;
+}
+.projecttitle h1{
+  font-size: 30px;
+}
+.projecttitle h1 span{
+  color: dodgerblue;
+}
+/*---UX-SECTION--*/
+.prjsection{
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 90px;
+  border-bottom: 1px solid #D9DEE8;
+}
+.ux-text{
+  width: 50%;
+  margin-right: 30px;
+}
+.ux-title{
+  display: flex;
+  align-items: center;
+}
+.ux-title h1{
+  font-family: 'Inter var', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #142740;
+}
+.ux-title img{
+  width: 24px;
+}
+.ux-text p{
+  font-family: 'Inter var', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #7287A6;
+  line-height: 1.4;
+  padding-top: 8px;
+  margin-bottom: 16px;
+}
+#my-tools{
+  font-size: 12px;
+  font-weight: 300;
+}
+.ux-topics ul{
+  display: flex;
+  list-style: none;
+}
+.ux-topics li{
+  justify-content: center;
+  margin-right: 18px;
+  padding:8px;
+  font-size: 12px;
+  border-radius: 3px;
+  color: dodgerblue;
+  
+}
+.ux-topics i{
+  font-size: 20px;
+  padding: 4px;
+}
+.ux-topics a{
+  color: dodgerblue;
+  text-decoration: none;
+  cursor: pointer;
+  list-style: none;
+}
+.ux-topics li:hover{
+  border-radius: 30px;
+  background-color: #E2EBF6;
+}
+
+/*---PROJECT-UL-LI--*/
+
+.showcase-img{
+  width: 50%;
+}
+.showcase-img img{
+  width: 350px;
+  margin: auto;
+}
+
+
+
+
+
+
+/*---FOOTER--*/
+
+
+@media (max-width: 750px){
+  .prjsection{
+    display: block;
+  }
+  .ux-text{
+    width: 90%;
+    justify-content: center;
+  }
+  .showcase-img{
+    width: 100%;
+    margin-top: 40px;
+    justify-content: center;
+  }
+ 
+}
+
+
+
+
+
