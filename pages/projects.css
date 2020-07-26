@@ -22,11 +22,10 @@ header{
   position: sticky;
   top: 0;
   height: 60px;
-  background-color:#F5F7FA ;
+  background-color:#FFF ;
   border-bottom: 1px solid #e2e2e2;
   box-shadow:
-  0 0.6px 3.8px rgba(106, 127, 161, 0.086),
-  0 5px 17px rgba(106, 127, 161, 0.15);
+  0 0.6px 3.8px rgba(106, 127, 161, 0.086);
 }
 .navbar{
   display: flex;
@@ -43,7 +42,7 @@ header{
   color:#181b20;
 }
 .navbar span{
-  color: dodgerblue;
+  color: #b1c0ca;
 }
 .links ul{
   list-style: none;
@@ -55,7 +54,7 @@ header{
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 13px;
-  color: #8da0ac;
+  color: #b1c0ca;
   text-decoration: none;
 }
 .links a:hover{
