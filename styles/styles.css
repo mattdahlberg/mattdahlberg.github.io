@@ -3,21 +3,18 @@
   padding: 0;
 }
 body{
-  background-color: #F5F7FA;
+  background-color: #F6F9FB;
   color: #111111;
   font-family: 'Inter var', sans-serif;
-  font-size: 14px;
 }
 .container{
-  max-width: 740px;
+  max-width: 900px;
   margin: auto;
   padding: 20px;
 }
-/*-----BODY & CONTAINER---⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆---------DONE*/
+/*--⬆---BODY & CONTAINER------------*/
 
-
-
-/*-----NAVBAR---⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇---------DONE*/
+/*--⬇---NAVBAR------------*/
 header{
   position: sticky;
   top: 0;
@@ -63,121 +60,109 @@ header{
 .links .active a{
   color: #111111;
 }
-/*---NAVBAR---⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆---NAVBAR------DONE*/
+/*--⬆---NAVBAR------------*/
 
-
-
-/*---PROJECTS-⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇-PROJECTS--------DONE*/
-/*---Project-Title--*/
-.projecttitle{
-  margin: 50px 0;
+/*--⬇---SHOWCASE------------*/
+.herotext{
+  padding-top: 80px;
+  padding-bottom: 20px ;
 }
-.projecttitle h1{
-  font-size: 30px;
-}
-.projecttitle h1 span{
-  color: dodgerblue;
-}
-/*---UX-SECTION--*/
-.prjsection{
-  display: flex;
-  padding-top: 30px;
-  padding-bottom: 90px;
-  border-bottom: 1px solid #D9DEE8;
-}
-.ux-text{
-  width: 50%;
-  margin-right: 30px;
-}
-.ux-title{
-  display: flex;
-  align-items: center;
-}
-.ux-title h1{
-  font-family: 'Inter var', sans-serif;
-  font-size: 16px;
+.herotext h1{
   font-weight: 500;
-  color: #142740;
+  font-size: 24px;
 }
-.ux-title img{
-  width: 24px;
+.socialicons{
+  padding-bottom: 20px;
 }
-.ux-text p{
-  font-family: 'Inter var', sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  color: #7287A6;
-  line-height: 1.4;
-  padding-top: 8px;
-  margin-bottom: 16px;
+.socialicons ul{
+display: flex;
 }
-#my-tools{
-  font-size: 12px;
-  font-weight: 300;
-}
-.ux-topics ul{
-  display: flex;
+.socialicons li{
   list-style: none;
-}
-.ux-topics li{
   justify-content: center;
   margin-right: 18px;
-  padding:8px;
+  padding:12px;
   font-size: 12px;
-  border-radius: 3px;
+  border-radius: 24px;
   color: dodgerblue;
+}
+.socialicons i{
+  position: relative;
+  color: dodgerblue;
+  font-size: 20px;
+}
+.socialicons li:hover{
+  background-color: #e1e7ee;
+}
+.homecontent{
+  display: flex;
+}
+.hometext h3{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+.hometext p{
+  color: #7293aa;
+  line-height: 1.2;
+  font-weight: 300;
+}
+.hometext a{
+  text-decoration: none;
+  color: dodgerblue;
+}
+.hometext a:hover{
+  border-bottom: 1px solid dodgerblue;
+}
+.hometext img{
+  display: none;
+}
+img{
+  width: 360px;
+}
+/*--⬆---SHOWCASE------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--⬇---MEDIA QUERY--920 & 620-------*/
+@media (max-width: 920px){
+  .herotext{
+    text-align: center;
+  }
+  .socialicons ul{
+    justify-content: center;
+  }
+  .homecontent{
+    display: block;
+    align-items: center;
+  }
+  .hometext{
+    text-align: center;
+  }
+  .hometext img{
+    display: initial;
+  }
+  img{
+    margin-top: 40px;
+    display: none;
+  }
+}
+
+@media (max-width: 620px){
   
 }
-.ux-topics i{
-  font-size: 20px;
-  padding: 4px;
-}
-.ux-topics a{
-  color: dodgerblue;
-  text-decoration: none;
-  cursor: pointer;
-  list-style: none;
-}
-.ux-topics li:hover{
-  border-radius: 30px;
-  background-color: #E2EBF6;
-}
-
-/*---PROJECT-UL-LI--*/
-
-.showcase-img{
-  width: 50%;
-}
-.showcase-img img{
-  width: 350px;
-  margin: auto;
-}
-
-
-
-
-
-
-/*---FOOTER--*/
-
-
-@media (max-width: 750px){
-  .prjsection{
-    display: block;
-  }
-  .ux-text{
-    width: 90%;
-    justify-content: center;
-  }
-  .showcase-img{
-    width: 100%;
-    margin-top: 40px;
-    justify-content: center;
-  }
- 
-}
-
-
-
-
-

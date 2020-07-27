@@ -3,13 +3,13 @@
   padding: 0;
 }
 body{
-  background-color: #F5F7FA;
+  background-color: #F6F9FB;
   color: #111111;
   font-family: 'Inter var', sans-serif;
   font-size: 14px;
 }
 .container{
-  max-width: 740px;
+  max-width: 900px;
   margin: auto;
   padding: 20px;
 }
