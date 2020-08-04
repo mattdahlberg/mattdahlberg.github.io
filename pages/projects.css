@@ -65,130 +65,219 @@ header{
 }
 /*---NAVBAR---⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆---NAVBAR------DONE*/
 
-
-
-/*---PROJECTS-⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇⬇-PROJECTS--------DONE*/
-/*---Project-Title--*/
-.projecttitle{
-  margin: 50px 0;
+/*--⬇---SHOWCASE------------*/
+.herotext{
+  padding-top: 40px;
+  padding-bottom: 20px ;
 }
-.projecttitle h1{
+.herotext h1{
+  font-weight: 500;
   font-size: 30px;
 }
-/*---UX-SECTION--*/
-.prjsection{
+.homecontent{
   display: flex;
-  padding-top: 30px;
-  padding-bottom: 90px;
-  border-bottom: 1px solid #D9DEE8;
 }
-.ux-text{
-  width: 50%;
-  margin-right: 30px;
+.hometext h3{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2.5rem;
 }
-.ux-title{
-  display: flex;
-  align-items: center;
-}
-.ux-title h1{
-  font-family: 'Inter var', sans-serif;
+.hometext p{
+  color: #7293aa;
+  line-height: 1.2;
   font-size: 16px;
-  font-weight: 500;
-  color: #142740;
-  padding-left: 8px;
-}
-.ux-title img{
-  width: 24px;
-}
-.ux-text p{
-  font-family: 'Inter var', sans-serif;
-  font-size: 14px;
   font-weight: 300;
-  color: #7287A6;
-  line-height: 1.4;
-  padding-top: 8px;
-  margin-bottom: 16px;
+  padding-bottom: 10px;
 }
-#my-tools{
-  font-size: 12px;
-  font-weight: 300;
-}
-.ux-topics ul{
-  display: flex;
-  list-style: none;
-}
-.ux-topics li{
-  margin-right: 16px;
-  padding:8px;
-  font-size: 12px;
-  border-radius: 3px;
-  color: dodgerblue;
-  background-color: #E2EBF6;
-  border: 1px solid #E2EBF6;
-}
-.ux-topics a{
-  color: dodgerblue;
+.hometext a{
   text-decoration: none;
-  cursor: pointer;
-  list-style: none;
+  color: dodgerblue;
 }
-.ux-topics a:hover{
+.hometext a:hover{
   border-bottom: 1px solid dodgerblue;
 }
+/*--⬆---SHOWCASE------------*/
 
-/*---PROJECT-UL-LI--*/
-.projectlinks{
-  width: 320px;
+/*--⬇---SKILLS------------*/
+.skillssection{
+  display: flex;
+  margin: 30px 0;
+  padding-bottom: 20px;
 }
-.prjlinks ul a{
-  text-decoration: none;
-  color: #7287A6;
-  line-height: 1.4;
-}
-.prjlinks ul p{
-  font-weight: 340;
-}
-.prjlinks li{
-  width: 300px;
-  list-style: none;
+.skill-items{
   background-color: #fff;
-  padding: 14px;
-  border-radius: 2px;
-  border: 1px solid #D9DEE8;
-  margin-bottom: 16px;
-}
-.prjlinks li:hover{
-  border: 1px solid #c4cbd8;
+  margin: 8px;
+  padding: 16px;
+  border-radius: 4px;
   box-shadow:
   0 0.6px 3.8px rgba(106, 127, 161, 0.086),
-  0 5px 17px rgba(106, 127, 161, 0.15);
+  0 0.6px 3.8px rgba(106, 127, 161, 0.086);
 }
-.cardtitle{
+.skill-title{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 4px;
 }
-.cardtitle img{
-  width: 82px;
-  height: 18px;
+.skill-items img{
+  width: 38px;
 }
-#yearbook-logo img{
-  width: 100px;
-  height: 16px;
+.skill-items h3{
+  padding: 8px 0;
+  font-size: 18px;
+  font-weight: 400;
 }
-#inzazu-logo img{
-  width: 70px;
-  height: 16px;
+.skill-items p{
+  color: #7293aa;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 300;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e2e2e2;
+  margin-bottom: 10px;
 }
-#century21-logo img{
-  width: 110px;
-  height: 13px;
+.tools ul{
+  justify-content: center;
+  list-style: none;
+  display: flex;
+}
+.tools a{
+  text-decoration: none;
+  color: dodgerblue;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 12px;
+  
+}
+.tools a:hover{
+  border-bottom: 1px solid dodgerblue;
+}
+/*--⬆---SKILLS------------*/
+
+/*--⬇---PORT-PROJECT-----------*/
+.port-content{
+  display: flex;
+}
+.port-project{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+.port-text h1{
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+.port-text h3{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+.port-text p{
+  color: #7293aa;
+  line-height: 1.2;
+  font-size: 16px;
+  font-weight: 300;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+.pro-cards a{
+  text-decoration: none;
 }
 
-#swiftui-section{
-  margin-top: 60px;
-  align-items: center;
+
+
+.punch-card{
+  margin-bottom: 16px;
+  border-radius: 4px;
+  padding: 20px 20px;
+  background-image: url(/images/punch-card.jpg);
+  background-size: cover;
 }
+.punch-overlay{
+  background: rgba(0, 170, 148, .8);
+}
+.punch-card img{
+  margin: 8px 0;
+  height: 22px;
+}
+.punch-card p{ 
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb(176, 210, 255);
+  padding: 8px 0;
+}
+.punch-card ul{
+  display: flex;
+  list-style: none;
+}
+.punch-card li{
+  color: #0c305a;
+  padding-right: 8px;
+}
+
+.yearbook-card{
+  margin-bottom: 16px;
+  width: 340px;
+  border-radius: 4px;
+  padding: 20px 20px;
+  width: 340px;
+  background-image: url(/images/yearbooks-card.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+.yearbook-card img{
+  height: 18px;
+  margin: 8px 0;
+}
+.yearbook-card p{ 
+  font-size: 16px;
+  font-weight: 300;
+  color: #a1fff2;
+  padding: 8px 0;
+}
+.yearbook-card ul{
+  display: flex;
+  list-style: none;
+}
+.yearbook-card li{
+  color: #007969;
+  padding-right: 8px;
+}
+
+.inzazu-card{
+  margin-bottom: 16px;
+  width: 340px;
+  border-radius: 4px;
+  padding: 20px 20px;
+  width: 340px;
+  background-image: url(/images/inzazu-card.jpg);
+  background-size: cover;
+  background-position: center, center;
+  overflow: hidden;
+}
+.inzazu-card img{
+  margin: 8px 0;
+  height: 20px;
+}
+.inzazu-card p{ 
+  font-size: 16px;
+  font-weight: 300;
+  color: #a6fab7;
+  padding: 8px 0;
+}
+.inzazu-card ul{
+  display: flex;
+  list-style: none;
+}
+.inzazu-card li{
+  color:#056318 ;
+  padding-right: 8px;
+}
+
+
+
+
+/*--⬆---PORT-PROJECT-----------*/
 
 
 
@@ -207,4 +296,32 @@ header{
   font-weight: 300;
   color: #8da0ac;
   padding-top: 100px;
+}
+
+
+
+
+/*--⬇---MEDIA QUERY--920 & 620-------*/
+@media (max-width: 920px){
+  .skillssection{
+    display: block;
+    margin: auto;
+    width: 400px;
+  }
+  .skill-items{
+    margin: 26px;
+  }
+  .port-content{
+    display: block;
+  }
+  .pro-cards{
+    padding-top: 30px;
+    margin: auto;
+    max-width: 380px;
+  }
+
+}
+
+@media (max-width: 620px){
+  
 }

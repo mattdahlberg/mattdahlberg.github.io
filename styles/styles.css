@@ -6,6 +6,7 @@ body{
   background-color: #F6F9FB;
   color: #111111;
   font-family: 'Inter var', sans-serif;
+  height: 1300px;
 }
 .container{
   max-width: 900px;
@@ -69,7 +70,7 @@ header{
 }
 .herotext h1{
   font-weight: 500;
-  font-size: 24px;
+  font-size: 30px;
 }
 .socialicons{
   padding-bottom: 20px;
@@ -92,7 +93,7 @@ display: flex;
   font-size: 20px;
 }
 .socialicons li:hover{
-  background-color: #e1e7ee;
+  background-color: #e1f1fa;
 }
 .homecontent{
   display: flex;
@@ -106,6 +107,7 @@ display: flex;
   color: #7293aa;
   line-height: 1.2;
   font-weight: 300;
+  padding-bottom: 10px;
 }
 .hometext a{
   text-decoration: none;
