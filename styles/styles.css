@@ -46,7 +46,7 @@ header{
 
 /*--⬇---SHOWCASE------------*/
 .showcasetwo{
-  background:linear-gradient(#FFF,#FFF,#F6F9FB,#F6F9FB,#F6F9FB);
+  background:linear-gradient(#FFF,#FFF,#f6f9fb,#F6F9FB,#F6F9FB);
   padding-bottom: 20px;
 }
 .herotext{
@@ -99,11 +99,13 @@ display: flex;
 
 /*--⬇---SKILLS------------*/
 .skillssection{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
 }
 .skill-items{
   background-color: #fff;
-  margin: 12px;
+  
   padding: 20px;
   border-radius: 4px;
   box-shadow:
@@ -114,13 +116,12 @@ display: flex;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 8px;
+  padding-bottom: 4px;
 }
 .skill-items img{
   width: 40px;
 }
 .skill-items h3{
-  padding: 8px 0;
   font-size: 18px;
   font-weight: 400;
 }
@@ -146,43 +147,44 @@ display: flex;
 /*--⬇---PROJECTS------------*/
 
 .project-cards{
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ 
 }
 .project-cards a{
   text-decoration: none;
 }
 .card{
+  margin: 8px;
   background-color: #7293aa;
-  width: 330px;
-  margin: 12px;
   padding: 20px;
   border-radius: 4px;
+  border: 2px solid rgba(0, 0, 0, 0);
   box-shadow:
   0 0.6px 3.8px rgba(106, 127, 161, 0.086),
   0 0.6px 3.8px rgba(106, 127, 161, 0.086);
 }
 .card:hover{
+  border: 2px solid rgb(30, 144, 255, 0.4);
   box-shadow:
-  0 0.1px 0.5px rgba(34, 45, 53, 0.129),
-  0 0.4px 1.8px rgba(34, 45, 53, 0.191),
-  0 2px 8px rgba(34, 45, 53, 0.32)
-;
+  0 6px 10px -1px rgb(177, 201, 214, 0.7);
+
+
+
 
 }
 .card-title{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 0;
+  padding: 10px 0;
 }
 .card img{
   height: 24px;
 }
 .card h4{
-  background-color:rgba(90, 90, 90, 0.137);
   padding: 5px;
-  font-size: 14px;
+  font-size: 18px;
   border-radius: 4px;
   font-weight: 500;
   color: #fff;
@@ -211,7 +213,7 @@ display: flex;
   color: #d5fff9;
 }
 #swift-1{
-  background-color: #9CD8FF;
+  background-color: #b6c2cc;
   background-position: center, center;
   background-size: cover;
 }
@@ -219,7 +221,7 @@ display: flex;
   color: #e9f6ff;
 }
 #swift-2{
-  background-color: #B7B5C5;
+  background-color: #b6c2cc;
   background-position: center, center;
   background-size: cover;
 }
@@ -276,31 +278,91 @@ display: flex;
 
 /*--⬇---MEDIA QUERY--920 & 620-------*/
 @media (max-width: 920px){
-  .herotext{
-    text-align: center;
-  }
-  .socialicons ul{
-    justify-content: center;
-  }
-  .homecontent{
-    display: block;
-    align-items: center;
-  }
-  .hometext{
-    text-align: center;
+  .container{
+    max-width: 700px;
   }
   .skillssection{
-    display: block;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+  }
+  .skill-items{
+    margin: auto;
+    padding: 12px;
+  }
+
+  .project-cards{
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+  }
+  .card{
+    margin: 8px;
+    padding: 10px;
+  }
+  .card-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  .card img{
+    height: 18px;
+  }
+  .card h4{
+    padding: 5px;
+    font-size: 14px;
+  }
+  .card p{
+    font-size: 12px;
+    padding-bottom: 6px;
+  }
+  .card{
+    width: 360;
+  }
+ 
+}
+
+
+
+
+
+
+@media (max-width: 620px){
+  .herotext h1{
+    font-size: 20px;
+  }
+  .hometext p{
+    font-size: 12px;
+  }
+  .socialicons i{
+    font-size: 20px;
+  }
+  .container{
+    max-width: 480px;
+  }
+  .skillssection{
+    grid-template-columns: 1fr;
+  }
+  .skill-items{
+    margin: auto;
+    width: 340px;
+  }
+  .skill-items h3{
+    padding: 2px 0;
+    font-size: 14px;
+  }
+  .skill-items p{
+    font-size: 12px;
+    padding-bottom: 4px;
+  }
+  .project-cards{
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+  }
+  .card-title{
+    display: flex;
+  }
+  .card{
     margin: auto;
     width: 360px;
   }
-  .skill-items{
-  }
-  .project-cards{
-    display: block;
-  }
-}
-
-@media (max-width: 620px){
-  
 }
