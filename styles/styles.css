@@ -3,7 +3,7 @@
   padding: 0;
 }
 body{
-  background:#fff;
+  background:#F6F9FB;
   color: #111111;
   font-family: 'Inter var', sans-serif;
 }
@@ -46,7 +46,6 @@ header{
 
 /*--⬇---SHOWCASE------------*/
 .showcasetwo{
-  background:linear-gradient(#FFF,#FFF,#f6f9fb,#F6F9FB,#F6F9FB);
   padding-bottom: 20px;
 }
 .herotext{
@@ -93,7 +92,7 @@ display: flex;
   color: #7293aa;
   line-height: 1.2;
   font-weight: 300;
-  padding-bottom: 30px;
+  margin-bottom: 3em;
 }
 /*--⬆---SHOWCASE------------*/
 
@@ -105,12 +104,9 @@ display: flex;
 }
 .skill-items{
   background-color: #fff;
-  
+  border: 1px solid #dee1e4;
   padding: 20px;
   border-radius: 4px;
-  box-shadow:
-  0 0.6px 3.8px rgba(106, 127, 161, 0.086),
-  0 0.6px 3.8px rgba(106, 127, 161, 0.086);
 }
 .skill-title{
   display: flex;
@@ -149,7 +145,7 @@ display: flex;
 .project-cards{
   display: grid;
   grid-template-columns: 1fr 1fr;
- 
+  margin-bottom: 3em;
 }
 .project-cards a{
   text-decoration: none;
@@ -165,7 +161,7 @@ display: flex;
   0 0.6px 3.8px rgba(106, 127, 161, 0.086);
 }
 .card:hover{
-  border: 2px solid rgb(30, 144, 255, 0.4);
+  border: 2px solid dodgerblue;
   box-shadow:
   0 6px 10px -1px rgb(177, 201, 214, 0.7);
 
@@ -177,7 +173,7 @@ display: flex;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding-bottom: 8px;
 }
 .card img{
   height: 24px;
@@ -192,7 +188,7 @@ display: flex;
 .card p{
   color: #fff;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.4;
   font-weight: 300;
   padding-bottom: 10px;
 }
@@ -205,12 +201,16 @@ display: flex;
   color: #d5e9ff;
 }
 #yearbooks{
-  background-color: #8CE2D6;
+  background-color: #00CFB4;
   background-position: center, center;
   background-size: cover;
 }
 #yearbooks p{
-  color: #d5fff9;
+  color: #88ffed;
+}
+#yearbooks span{
+  color: #c2fff6;
+  font-weight: 500;
 }
 #swift-1{
   background-color: #b6c2cc;
@@ -328,7 +328,7 @@ display: flex;
 
 @media (max-width: 620px){
   .herotext h1{
-    font-size: 20px;
+    font-size: 24px;
   }
   .hometext p{
     font-size: 12px;
@@ -336,6 +336,10 @@ display: flex;
   .socialicons i{
     font-size: 20px;
   }
+  .socialicons ul{
+    justify-content: center;
+    
+    }
   .container{
     max-width: 480px;
   }
@@ -344,7 +348,7 @@ display: flex;
   }
   .skill-items{
     margin: auto;
-    width: 340px;
+    width: 300px;
   }
   .skill-items h3{
     padding: 2px 0;
@@ -362,7 +366,8 @@ display: flex;
     display: flex;
   }
   .card{
+
     margin: auto;
-    width: 360px;
+    width: 300px;
   }
 }
