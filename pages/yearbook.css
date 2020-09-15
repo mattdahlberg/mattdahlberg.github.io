@@ -19,17 +19,16 @@ body{
 header{
   top: 0;
   height: 60px;
-  background-color: #F6F9FB;
+  background-color:#fffff;
 }
 .navbar{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto;
 }
 .navbar i{
   font-size: 16px;
-  padding-right: 4px;
+  padding-right: 8px;
   padding-top: 2px;
 }
 .navbar h3{
@@ -38,26 +37,25 @@ header{
   font-size: 15px;
   font-weight: 500;
   list-style: none;
-  color:#181b20;
+  color:#11111;
 }
 .navbar span{
-  color: #b1c0ca;
+  color: #777D8A;
 }
 .navbar a{
   text-decoration: none;
-  color: #181b20;
+  color: #111111;
   border-bottom: 2px solid rgba(0, 0, 0, 0.0);
 }
 .navbar a:hover{
   color: dodgerblue;
-  border-bottom: 2px solid dodgerblue;
 }
 
 
 
 /*--⬇---SHOWCASE-HERO---------------------------*/
 .showcase-hero{
-  background:#F6F9FB;
+  background:#E6EBEE;
   padding-top: 4em;
 }
 .showcase-hero h1{
@@ -108,13 +106,16 @@ header{
   padding: 16px;
   background-color: #fff;
   border: 1px solid #dee1e4;
-  
+  box-shadow:
+  0 6px 10px -1px rgb(177, 201, 214, 0.2);
 }
 .project-intro{
   border-radius: 4px;
   padding: 16px;
   background-color: #fff;
   border: 1px solid #dee1e4;
+  box-shadow:
+  0 6px 10px -1px rgb(177, 201, 214, 0.2);
 }
 .project-overview a{
   text-decoration: none;
@@ -167,9 +168,11 @@ header{
 
 /*--⬇---SECTION-B------------------------------------*/
 .flow{
+  padding: 28px;
   margin: 4em;
 }
 .flow img{
+  padding: 8px;
   width: 100%;
 }
 
@@ -230,6 +233,13 @@ header{
   }
   .header-content{
     display: block;
+  }
+  .header-img{
+    justify-content: center;
+  }
+  .header-img img{
+    height: 260px;
+    justify-content: center;
   }
   .hero-details{
     grid-template-columns: 1fr;
