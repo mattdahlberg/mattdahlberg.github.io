@@ -19,7 +19,7 @@ body{
 header{
   top: 0;
   height: 60px;
-  background-color:#fffff;
+  background-color:#fff;
 }
 .navbar{
   display: flex;
@@ -37,7 +37,7 @@ header{
   font-size: 15px;
   font-weight: 500;
   list-style: none;
-  color:#11111;
+  color:#111;
 }
 .navbar span{
   color: #777D8A;
@@ -56,7 +56,7 @@ header{
 /*--⬇---SHOWCASE-HERO---------------------------*/
 .showcase-hero{
   background:#E6EBEE;
-  padding-top: 4em;
+  padding-top: 1em;
 }
 .showcase-hero h1{
   font-weight: 500;
@@ -169,10 +169,8 @@ header{
 /*--⬇---SECTION-B------------------------------------*/
 .flow{
   padding: 28px;
-  margin: 4em;
 }
 .flow img{
-  padding: 8px;
   width: 100%;
 }
 
@@ -243,9 +241,6 @@ header{
   }
   .hero-details{
     grid-template-columns: 1fr;
-  }
-  .flow{
-    margin: 0;
   }
   .pitch{
     margin: 0;
