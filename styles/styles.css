@@ -119,7 +119,12 @@ display: flex;
   color: #7293aa;
   line-height: 1.2;
   font-weight: 300;
-  margin-bottom: 3em;
+  margin-bottom: 2em;
+}
+.tools p{
+  margin: 0;
+  padding-bottom: 16px;
+  font-size: 12px;
 }
 /*--⬆---SHOWCASE------------*/
 
